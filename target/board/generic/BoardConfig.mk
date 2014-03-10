@@ -44,3 +44,7 @@ BUILD_EMULATOR_OPENGL := true
 # Build and enable the OpenGL ES View renderer. When running on the emulator,
 # the GLES renderer disables itself if host GL acceleration isn't available.
 USE_OPENGL_RENDERER := true
+
+OPENSOURCE_ALSA_AUDIO := true
+BOARD_USES_ALSA_AUDIO := true
+BRCM_ALSA_LIB_DIR=device/samsung/bcm_common/alsa-lib
