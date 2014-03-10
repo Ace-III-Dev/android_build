@@ -136,6 +136,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     system/core/rootdir/init.usb.rc:root/init.usb.rc \
     system/core/rootdir/init.trace.rc:root/init.trace.rc \
+    
+PRODUCT_PACKAGES += \
+          e2fsck \
+          libexifa \
+          libjpega \
+          libkeyutils \
+          libasound \
+          libasound_module_pcm_bcmfilter
 
 # host-only dependencies
 ifeq ($(WITH_HOST_DALVIK),true)
